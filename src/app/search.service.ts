@@ -18,7 +18,7 @@ export class SearchService {
       {
         console.log(response);
         
-        this.results.push(response.meals[0])
+        // this.results.push(response.meals[0])
       })
     throw new Error('Method not implemented.');
   }
